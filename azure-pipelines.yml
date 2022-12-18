@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  vmImage: default
+  name: default
 strategy:
   matrix:
     Python27:
